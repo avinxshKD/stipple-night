@@ -8,6 +8,14 @@
   "engines": {
     "node": ">=20"
   },
+  "scripts": {
+    "preview": "node scripts/preview.cjs",
+    "still": "node scripts/still.cjs",
+    "render": "node scripts/render-loop.cjs",
+    "audio": "node scripts/audio.cjs",
+    "mux": "node scripts/mux.cjs",
+    "boil-test": "node scripts/boil-test.cjs"
+  },
   "dependencies": {
     "puppeteer-core": "25.16.0"
   }
