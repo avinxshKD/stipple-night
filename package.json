@@ -1,0 +1,14 @@
+{
+  "name": "stipple-night",
+  "version": "0.1.0",
+  "description": "A 12-second seamless stippled night-sea loop, rendered frame by frame on canvas with a soundtrack synthesized in code.",
+  "private": true,
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "puppeteer-core": "25.16.0"
+  }
+}
